@@ -10,6 +10,8 @@ public class ShotController : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+
+            FindObjectOfType<SoundFXController>().PlayEnemyDeath();
         }
     }
 }
