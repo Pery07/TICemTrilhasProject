@@ -3493,6 +3493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1572882733}
   audioController: {fileID: 2145044679}
+  nextLevelName: Level 2
 --- !u!114 &2145044679
 MonoBehaviour:
   m_ObjectHideFlags: 0
