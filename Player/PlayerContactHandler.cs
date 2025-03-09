@@ -11,7 +11,7 @@ public class PlayerContactHandler : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Enemy Hit - Defeatt");    
+            Debug.Log("Enemy Hit - Defeat");    
         }
     }
 
